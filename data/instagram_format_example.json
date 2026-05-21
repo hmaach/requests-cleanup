@@ -1,0 +1,18 @@
+{
+  "relationships_follow_requests_sent": [
+    {
+      "string_list_data": [
+        {
+          "value": "user_1"
+        }
+      ]
+    },
+    {
+      "string_list_data": [
+        {
+          "value": "user_2"
+        }
+      ]
+    }
+  ]
+}
