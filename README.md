@@ -61,17 +61,57 @@ python -m playwright install
 
 ### Instagram
 
-#### Step 1 — Download Your Instagram Data
+  #### Step 1 — Download Your Instagram Data
 
-1. Open **Accounts Center** in Instagram settings
-2. Go to **Your information and permissions** → **Export your information**
-3. Click **Create Export** → select your account → **Export to device**
-4. Choose:
-   - **Data to export**: *Choose specific info* → select only **Followers and following**
-   - **Date range**: *All time*
-   - **Format**: *JSON*
-   - **Media quality**: *Medium*
-5. Wait for the email, then download the archive
+**Step 1 — Open Accounts Center**
+- Go to Instagram settings
+- Navigate to **Accounts Center**
+
+<p align="center">
+  <img src="docs/assets/accounts-center.png" alt="Accounts Center" width="300" />
+</p>
+
+---
+
+**Step 2 — Request Data Download**
+- Click: **Your information and permissions**
+- Then: **Export your information**
+
+<p align="center">
+  <img src="docs/assets/download-information.png" alt="Download Information" width="500"/>
+</p>
+
+---
+
+**Step 3 — Create Download Request**
+- Click **Create Export**
+- Select your Instagram account
+- Choose **Export to device**
+
+<p align="center">
+  <img src="docs/assets/select-account.png" alt="Select Account" width="500"/>
+</p>
+
+---
+
+**Step 4 — Confirm Your Export**
+- **Choose data to export** → Select **Choose specific info to export**
+- Select only **Followers and following**
+- **Date range** → Choose **All time**
+- **Format** → Choose **JSON**
+- **Media quality** → Choose **Medium quality**
+
+<p align="center">
+  <img src="docs/assets/select-followers-following.png" alt="Select Followers and Following" width="500"/>
+</p>
+
+---
+
+**Step 5 — Download the Exported Data**
+
+Once processing is complete:
+- Open the email sent by Instagram
+- Download your exported data using the provided link
 
 #### Step 2 — Extract the JSON file
 
